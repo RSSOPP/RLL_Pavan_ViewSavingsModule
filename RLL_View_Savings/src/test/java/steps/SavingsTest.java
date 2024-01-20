@@ -50,7 +50,7 @@ public void i_open_the_banking_website() throws Throwable{
  
 @Then("I click on the Sign in buttton")
 public void i_click_on_the_sign_in_buttton() throws Throwable{
-	driver.findElement(By.id("submit")).click();
+	 
 	Bankcomponent.clickthemenu();}
   
 @Then("I click on the Savings tab")
